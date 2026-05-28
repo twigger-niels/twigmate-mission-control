@@ -4,7 +4,7 @@
       "id": "test_mission_control",
       "title": "🧪 Test Mission Control Integration",
       "description": "This is a test task to verify that moving a task to 'In Progress' triggers the agent correctly.",
-      "status": "in_progress",
+      "status": "review",
       "project": "testing",
       "tags": ["test", "integration"],
       "priority": "medium",
