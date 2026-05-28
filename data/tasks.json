@@ -4,9 +4,12 @@
       "id": "test_mission_control",
       "title": "🧪 Test Mission Control Integration",
       "description": "This is a test task to verify that moving a task to 'In Progress' triggers the agent correctly.",
-      "status": "backlog",
+      "status": "in_progress",
       "project": "testing",
-      "tags": ["test", "integration"],
+      "tags": [
+        "test",
+        "integration"
+      ],
       "priority": "medium",
       "dod": "Task card appears in the UI and agent can process it",
       "subtasks": [
@@ -22,7 +25,19 @@
         }
       ],
       "comments": [],
-      "createdAt": "2026-05-28T13:30:00Z"
+      "createdAt": "2026-05-28T13:30:00Z",
+      "sortOrder": 0
+    }
+  ],
+  "lastUpdated": "2026-05-28T12:14:20.189Z",
+  "activities": [
+    {
+      "type": "moved",
+      "actor": "twigger-niels",
+      "task": "🧪 Test Mission Control Integration",
+      "from": "backlog",
+      "to": "in_progress",
+      "time": "just now"
     }
   ]
 }
