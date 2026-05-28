@@ -5,7 +5,10 @@
       "title": "🧪 Test Mission Control Integration",
       "description": "This is a test task to verify that moving a task to 'In Progress' triggers the agent correctly.",
       "status": "backlog",
+      "project": "testing",
+      "tags": ["test", "integration"],
       "priority": "medium",
+      "dod": "Task card appears in the UI and agent can process it",
       "subtasks": [
         {
           "id": "sub_001",
@@ -18,6 +21,7 @@
           "done": false
         }
       ],
+      "comments": [],
       "createdAt": "2026-05-28T13:30:00Z"
     }
   ]
